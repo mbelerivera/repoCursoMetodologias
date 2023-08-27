@@ -11,10 +11,12 @@ body{
     height: 100vh;
     background: linear-gradient(
     to right,
-    pink 0%,
+    lightblue 0%,
+    blue 25%,
+    darkblue 50%,
     pink 50%,
-    paleturquoise 50%,
-    paleturquoise 100%
+    violet 75%,
+    darkviolet 100%
   );
 }
 
@@ -43,6 +45,7 @@ li {
 
 .logo{
     font-size: 40px;
+    color: #2B3467;
 }
 
 .menu{
@@ -78,8 +81,8 @@ i:hover{
 img{
     /* height: 449px;
     width: 575px; */
-    height: 410px;
-    width: 525px;
+    height: 350px;
+    width: 450px;
     vertical-align: top;
     justify-content: left;
     margin-left: 30px;
@@ -97,7 +100,7 @@ img{
 }
 
 .subtitle-mainhead{
-    color: #EB455F;
+    color: #4a0bad;
 }
 
 .subtitle-intro{
@@ -190,7 +193,7 @@ img{
 }
 
 .foot-down{
-    background-color: #97DECE;
+    background-color: #2B3467;
 }
 
 .foot{
