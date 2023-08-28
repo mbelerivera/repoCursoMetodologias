@@ -11,8 +11,8 @@ body{
     height: 100vh;
     background: linear-gradient(
     to right,
-    pink 0%,
-    pink 50%,
+    white 0%,
+    white 50%,
     paleturquoise 50%,
     paleturquoise 100%
   );
@@ -201,4 +201,9 @@ img{
 .foot i{
     font-size: 35px;
     padding: 5px;
+}
+
+.foto{
+    border-radius: 50%;
+    height: 100%;
 }
