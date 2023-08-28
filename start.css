@@ -11,8 +11,8 @@ body{
     height: 100vh;
     background: linear-gradient(
     to right,
-    pink 0%,
-    pink 50%,
+    #a7bcf7 0%,
+    #a7bcf7 50%,
     paleturquoise 50%,
     paleturquoise 100%
   );
@@ -43,6 +43,7 @@ li {
 
 .logo{
     font-size: 40px;
+    color:#7178df;
 }
 
 .menu{
@@ -97,7 +98,7 @@ img{
 }
 
 .subtitle-mainhead{
-    color: #EB455F;
+    color: #7178df;
 }
 
 .subtitle-intro{
