@@ -11,10 +11,10 @@ body{
     height: 100vh;
     background: linear-gradient(
     to right,
-    pink 0%,
-    pink 50%,
-    paleturquoise 50%,
-    paleturquoise 100%
+    black 0%,
+    black 50%,
+    gray 50%,
+    gray 100%
   );
 }
 
@@ -97,7 +97,7 @@ img{
 }
 
 .subtitle-mainhead{
-    color: #EB455F;
+    color: white;
 }
 
 .subtitle-intro{
@@ -178,6 +178,7 @@ img{
     margin-top: 30px;
     font-size: 24px;
     line-height: 44px;
+    color: white;
 }
 
 .content-sectiom .social{
