@@ -11,10 +11,10 @@ body{
     height: 100vh;
     background: linear-gradient(
     to right,
-    pink 0%,
+    rgb(224, 66, 93) 0%,
     pink 50%,
     paleturquoise 50%,
-    paleturquoise 100%
+    rgb(60, 223, 223) 100%
   );
 }
 
