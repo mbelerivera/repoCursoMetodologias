@@ -202,3 +202,9 @@ img{
     font-size: 35px;
     padding: 5px;
 }
+#fotoPerfil{
+    width: auto;
+    height: 300px;
+    border-radius: 5%;
+    padding-right: 300px;
+}
