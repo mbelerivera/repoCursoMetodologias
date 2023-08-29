@@ -13,8 +13,8 @@ body{
     to right,
     pink 0%,
     pink 50%,
-    paleturquoise 50%,
-    paleturquoise 100%
+    rgb(206, 228, 228) 50%,
+    rgb(158, 187, 187) 100%
   );
 }
 
@@ -38,11 +38,13 @@ li {
 
 .nav-links a{
     /* color: white; */
-    color: #2D033B;
+    color: #2d033b;
 }
 
 .logo{
     font-size: 40px;
+    color: #2D033B;
+    text-shadow: 1px 1px 4px rgb(237, 90, 90);
 }
 
 .menu{
@@ -78,11 +80,13 @@ i:hover{
 img{
     /* height: 449px;
     width: 575px; */
-    height: 410px;
-    width: 525px;
+    height: auto;
+    width: auto;
     vertical-align: top;
     justify-content: left;
     margin-left: 30px;
+    object-fit: cover;
+    border-radius: 50%;
 }
 
 .photo{
@@ -97,7 +101,7 @@ img{
 }
 
 .subtitle-mainhead{
-    color: #EB455F;
+    color: #dc6f57;
 }
 
 .subtitle-intro{
@@ -190,13 +194,15 @@ img{
 }
 
 .foot-down{
-    background-color: #97DECE;
+    background-color: rgb(158, 187, 187) 100%;
+    text-shadow: 1px 1px 4px rgb(0, 0, 0);
+    
 }
 
 .foot{
     justify-content: center;
     text-align: center;
-}
+   }
 
 .foot i{
     font-size: 35px;
