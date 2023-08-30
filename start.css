@@ -14,8 +14,8 @@ body{
     pink 0%,
     pink 50%,
     paleturquoise 50%,
-    paleturquoise 100%
-  );
+    paleturquoise 100%); 
+
 }
 
 a {
@@ -157,7 +157,7 @@ img{
 }
 .image-sectiom{
     float: right;
-    width: 40%;
+    width: 55%;
 }
 
 .image-sectiom img{
@@ -172,12 +172,14 @@ img{
 .content-sectiom title{
     text-transform: uppercase;
     font-size: 35px;
+
 }
 
 .content p{
     margin-top: 30px;
     font-size: 24px;
     line-height: 44px;
+
 }
 
 .content-sectiom .social{
@@ -194,9 +196,12 @@ img{
 }
 
 .foot{
-    justify-content: center;
-    text-align: center;
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px; 
 }
+
 
 .foot i{
     font-size: 35px;
