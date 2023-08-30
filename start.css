@@ -1,21 +1,28 @@
-/* *{
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Big+Shoulders+Inline+Text:wght@100;200&family=Dancing+Script:wght@400;500;600&family=Lumanosimo&family=Rubik:wght@300;400&display=swap');
+
+/*
+font-family: 'Architects Daughter', cursive;
+font-family: 'Big Shoulders Inline Text', cursive;
+font-family: 'Dancing Script', cursive;
+font-family: 'Lumanosimo', cursive;
+font-family: 'Rubik', sans-serif;
+*/
+* {
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
-} */
+}
 
-body{
+body {
     font-family: 'Raleway', sans-serif;
     /* background-color: #3D5656; */
     width: 100%;
     height: 100vh;
-    background: linear-gradient(
-    to right,
-    pink 0%,
-    pink 50%,
-    paleturquoise 50%,
-    paleturquoise 100%
-  );
+    background: linear-gradient(to right,
+            pink 0%,
+            pink 50%,
+            paleturquoise 50%,
+            paleturquoise 100%);
 }
 
 a {
@@ -26,7 +33,7 @@ li {
     list-style: none;
 }
 
-.navbar{
+.navbar {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -36,20 +43,26 @@ li {
     color: #2B3467;
 }
 
-.nav-links a{
+.nav-links a {
     /* color: white; */
     color: #2D033B;
 }
 
-.logo{
-    font-size: 40px;
+.logo {
+    font-size: 82px;
+    font-family: 'Dancing Script', cursive;
+    margin-left: 38%;
+    padding-bottom: 69px;
+
+
 }
 
-.menu{
+.menu {
     display: flex;
     gap: 1.5em;
     font-size: 23px;
     color: #3A4F7A;
+    flex-direction: column;
 }
 
 .menu li:hover {
@@ -57,12 +70,12 @@ li {
     transition: 0.5s ease-out;
 }
 
-.menu i{
+.menu i {
     font-size: 28px;
     padding: 0 5px;
 }
 
-.containe{
+.container {
     display: flex;
     justify-content: center;
     width: min(100% - 15px, 1175px);
@@ -70,45 +83,46 @@ li {
     align-items: center;
 }
 
-i:hover{
+i:hover {
     text-decoration: underline;
 }
 
 
-img{
+img {
     /* height: 449px;
     width: 575px; */
-    height: 410px;
-    width: 525px;
-    vertical-align: top;
-    justify-content: left;
-    margin-left: 30px;
-}
 
-.photo{
+    width: 325px;
+    margin: auto;
     display: flex;
+    border-radius: 75%;
+    justify-content: center;
 }
 
-.subtitle{
-    margin-left: 35px;
-    padding-left: 22px;
+.photo {
+    margin-top: -223px;
+}
+
+.subtitle {
+    margin-left: 30%;
     line-height: 47px;
     padding: 65px;
+    margin-top: -2%;
 }
 
-.subtitle-mainhead{
+.subtitle-mainhead {
     color: #EB455F;
 }
 
-.subtitle-intro{
+.subtitle-intro {
     font-size: 50px;
 }
 
-.subtitle-passs{
+.subtitle-passs {
     font-size: 27px;
 }
 
-.details{
+.details {
     margin-top: 20px;
     /* background-color:#22A39F;  */
     background-color: #FF597B;
@@ -123,82 +137,102 @@ img{
     font-weight: 600;
 }
 
-.details:hover{
+.details:hover {
     background-color: burlywood;
     color: white;
 }
 
-.subtitle button{
+.subtitle button {
     color: white;
 }
 
-.subtitle a{
+.subtitle a {
     text-decoration: none;
 }
 
 /* #####################about################### */
 
-.sectiom{
+.sectiom {
     width: 100%;
     min-height: 100vh;
 }
+.sectiom-2 {
+    float: inline-end;
+    margin-top: -39%;
+    margin-right: 211px;
+}
 
-.container{
+.container {
     width: 100%;
     display: block;
     margin: auto;
     padding-top: 100px;
 }
 
-.content-sectiom{
-    float: left;
-    width: 53%;
-    padding: 0px 70px;
+.content-sectiom {
+    width: 50%;
+    padding: 25px;
+    margin-bottom: 34px;
 }
-.image-sectiom{
+
+.image-sectiom {
     float: right;
     width: 40%;
 }
 
-.image-sectiom img{
+.image-sectiom img {
     height: auto;
     width: 80%;
 }
 
-.title{
+.title {
     font-size: 30px;
 }
 
-.content-sectiom title{
+.content-sectiom title {
     text-transform: uppercase;
     font-size: 35px;
 }
 
-.content p{
+.content p {
     margin-top: 30px;
     font-size: 24px;
     line-height: 44px;
 }
+.content-2 p {
+    margin-top: 30px;
+    font-size: 24px;
+    line-height: 22px;
+}
 
-.content-sectiom .social{
+.content-sectiom .social {
     margin-top: 20px;
 }
 
-.content-sectiom .social i{
+.content-sectiom .social i {
     font-size: 30px;
     padding: 0 10px;
 }
 
-.foot-down{
+.foot-down {
     background-color: #97DECE;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    width: 100%;
+    padding: 11px;
 }
 
-.foot{
+.foot {
     justify-content: center;
     text-align: center;
 }
 
-.foot i{
+.foot i {
     font-size: 35px;
     padding: 5px;
+}
+
+.foot-down h4 {
+    color:black;
 }
