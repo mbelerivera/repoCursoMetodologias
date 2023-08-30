@@ -6,7 +6,7 @@
 
 body{
     font-family: 'Raleway', sans-serif;
-    /* background-color: #3D5656; */
+    /* background-color: #E8DAEF; */
     width: 100%;
     height: 100vh;
     background: linear-gradient(
@@ -31,7 +31,7 @@ li {
     align-items: center;
     justify-content: space-between;
     padding: 19px;
-    color: #3A4F7A;
+    color: #E8DAEF;
     /* color: white; */
     color: #2B3467;
 }
