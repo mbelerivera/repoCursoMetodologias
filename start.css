@@ -11,10 +11,10 @@ body{
     height: 100vh;
     background: linear-gradient(
     to right,
-    pink 0%,
-    pink 50%,
-    paleturquoise 50%,
-    paleturquoise 100%
+    rgb(60, 113, 211) 0%,
+    rgb(110, 148, 206) 50%,
+    rgb(92, 194, 194) 50%,
+    rgb(103, 207, 207) 100%
   );
 }
 
@@ -97,7 +97,7 @@ img{
 }
 
 .subtitle-mainhead{
-    color: #EB455F;
+    color: #1a6969;
 }
 
 .subtitle-intro{
