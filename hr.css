@@ -1,7 +1,7 @@
 
 hr {
     height: 1px;
-    background: burlywood;
+    background: rgb(255, 255, 255);
     border: none;
     outline: none;
     margin: 3em 3em 5em;
@@ -11,4 +11,5 @@ hr {
 hr.one {
     width: 50%;
     margin: 3em auto;
+    color: white;
 }
