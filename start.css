@@ -11,10 +11,10 @@ body{
     height: 100vh;
     background: linear-gradient(
     to right,
-    pink 0%,
-    pink 50%,
-    paleturquoise 50%,
-    paleturquoise 100%
+    rgb(229, 28, 247) 0%,
+    rgb(240, 141, 255) 50%,
+    rgb(224, 214, 249) 50%,
+    rgb(127, 91, 255) 100%
   );
 }
 
@@ -42,7 +42,10 @@ li {
 }
 
 .logo{
-    font-size: 40px;
+    font-size: 60px;
+    font-weight: bold;
+    color: white;
+    text-shadow: 20px -20px 5px rgb(101, 0, 252) ;
 }
 
 .menu{
@@ -97,7 +100,7 @@ img{
 }
 
 .subtitle-mainhead{
-    color: #EB455F;
+    color: #5f05fa;
 }
 
 .subtitle-intro{
